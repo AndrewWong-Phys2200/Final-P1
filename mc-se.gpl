@@ -1,0 +1,5 @@
+set nokey
+set term png
+
+set output "mc-se.png"
+p "res" u 2:3 w l
